@@ -1,0 +1,56 @@
+
+Circuit 1 cell sky130_fd_pr__nfet_01v8 and Circuit 2 cell sky130_fd_pr__nfet_01v8 are black boxes.
+Equate elements:  no current cell.
+Device classes sky130_fd_pr__nfet_01v8 and sky130_fd_pr__nfet_01v8 are equivalent.
+
+Circuit 1 cell sky130_fd_pr__pfet_01v8 and Circuit 2 cell sky130_fd_pr__pfet_01v8 are black boxes.
+Equate elements:  no current cell.
+Device classes sky130_fd_pr__pfet_01v8 and sky130_fd_pr__pfet_01v8 are equivalent.
+
+Subcircuit summary:
+Circuit 1: untitled-1.spice                |Circuit 2: config_block.spice              
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__nfet_01v8 (15)               |sky130_fd_pr__nfet_01v8 (15)               
+sky130_fd_pr__pfet_01v8 (15)               |sky130_fd_pr__pfet_01v8 (15)               
+Number of devices: 30                      |Number of devices: 30                      
+Number of nets: 24                         |Number of nets: 24                         
+---------------------------------------------------------------------------------------
+Netlists match uniquely with property errors.
+sky130_fd_pr__pfet_01v8:M3 vs. sky130_fd_pr__pfet_01v8:1:
+ W circuit1: 1   circuit2: 2   (delta=66.7%, cutoff=1%)
+sky130_fd_pr__pfet_01v8:M6 vs. sky130_fd_pr__pfet_01v8:2:
+ W circuit1: 1   circuit2: 2   (delta=66.7%, cutoff=1%)
+sky130_fd_pr__pfet_01v8:M18 vs. sky130_fd_pr__pfet_01v8:5:
+ W circuit1: 1   circuit2: 2   (delta=66.7%, cutoff=1%)
+sky130_fd_pr__pfet_01v8:M10 vs. sky130_fd_pr__pfet_01v8:4:
+ W circuit1: 1   circuit2: 2   (delta=66.7%, cutoff=1%)
+sky130_fd_pr__pfet_01v8:M17 vs. sky130_fd_pr__pfet_01v8:12:
+ W circuit1: 1   circuit2: 2   (delta=66.7%, cutoff=1%)
+sky130_fd_pr__pfet_01v8:M22 vs. sky130_fd_pr__pfet_01v8:7:
+ W circuit1: 1   circuit2: 2   (delta=66.7%, cutoff=1%)
+sky130_fd_pr__pfet_01v8:M21 vs. sky130_fd_pr__pfet_01v8:18:
+ W circuit1: 1   circuit2: 2   (delta=66.7%, cutoff=1%)
+sky130_fd_pr__pfet_01v8:M29 vs. sky130_fd_pr__pfet_01v8:13:
+ W circuit1: 1   circuit2: 2   (delta=66.7%, cutoff=1%)
+sky130_fd_pr__pfet_01v8:M27 vs. sky130_fd_pr__pfet_01v8:16:
+ W circuit1: 1   circuit2: 2   (delta=66.7%, cutoff=1%)
+sky130_fd_pr__pfet_01v8:M25 vs. sky130_fd_pr__pfet_01v8:20:
+ W circuit1: 1   circuit2: 2   (delta=66.7%, cutoff=1%)
+sky130_fd_pr__pfet_01v8:M14 vs. sky130_fd_pr__pfet_01v8:22:
+ W circuit1: 1   circuit2: 2   (delta=66.7%, cutoff=1%)
+sky130_fd_pr__pfet_01v8:M4 vs. sky130_fd_pr__pfet_01v8:24:
+ W circuit1: 1   circuit2: 2   (delta=66.7%, cutoff=1%)
+sky130_fd_pr__pfet_01v8:M5 vs. sky130_fd_pr__pfet_01v8:27:
+ W circuit1: 1   circuit2: 2   (delta=66.7%, cutoff=1%)
+sky130_fd_pr__pfet_01v8:M13 vs. sky130_fd_pr__pfet_01v8:8:
+ W circuit1: 1   circuit2: 2   (delta=66.7%, cutoff=1%)
+sky130_fd_pr__pfet_01v8:M9 vs. sky130_fd_pr__pfet_01v8:29:
+ W circuit1: 1   circuit2: 2   (delta=66.7%, cutoff=1%)
+Cells have no pins;  pin matching not needed.
+Device classes untitled-1.spice and config_block.spice are equivalent.
+
+Final result: Circuits match uniquely.
+Property errors were found.
+
+The following cells had property errors:
+ untitled-1.spice

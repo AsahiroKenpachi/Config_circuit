@@ -1,0 +1,49 @@
+** sch_path: /home/asashirokenpachi/config_circuit/untitled-1.sch
+**.subckt untitled-1 l(i-1) l(x-1) l(y-1) l(z-1) vdd gnd l(i) cl(i-1) l(x) l(y) l(z) l(x') l(y') l(z') cl(i-2)
+*.ipin l(i-1)
+*.ipin l(x-1)
+*.ipin l(y-1)
+*.ipin l(z-1)
+*.ipin vdd
+*.ipin gnd
+*.ipin l(i)
+*.ipin cl(i-1)
+*.opin l(x)
+*.opin l(y)
+*.opin l(z)
+*.opin l(x')
+*.opin l(y')
+*.opin l(z')
+*.ipin cl(i-2)
+XM1 net1 l(i-1) net2 gnd sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1
+XM2 net2 l(x-1) gnd gnd sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1
+XM3 net1 l(i-1) vdd vdd sky130_fd_pr__pfet_01v8 L=0.15 W=1 nf=1
+XM4 net1 l(x-1) vdd vdd sky130_fd_pr__pfet_01v8 L=0.15 W=1 nf=1
+XM5 net3 l(x-1) vdd vdd sky130_fd_pr__pfet_01v8 L=0.15 W=1 nf=1
+XM6 net3 cl(i-2) vdd vdd sky130_fd_pr__pfet_01v8 L=0.15 W=1 nf=1
+XM7 net3 l(x-1) net4 gnd sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1
+XM8 net4 cl(i-2) gnd gnd sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1
+XM9 net6 l(y-1) vdd vdd sky130_fd_pr__pfet_01v8 L=0.15 W=1 nf=1
+XM10 net5 l(z-1) net6 vdd sky130_fd_pr__pfet_01v8 L=0.15 W=1 nf=1
+XM11 net5 l(y-1) gnd gnd sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1
+XM12 net5 l(z-1) gnd gnd sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1
+XM13 net7 l(i) vdd vdd sky130_fd_pr__pfet_01v8 L=0.15 W=1 nf=1
+XM14 l(x) net1 net7 vdd sky130_fd_pr__pfet_01v8 L=0.15 W=1 nf=1
+XM15 l(x) l(i) gnd gnd sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1
+XM16 l(x) net1 gnd gnd sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1
+XM17 net8 net1 vdd vdd sky130_fd_pr__pfet_01v8 L=0.15 W=1 nf=1
+XM18 l(y) cl(i-1) net8 vdd sky130_fd_pr__pfet_01v8 L=0.15 W=1 nf=1
+XM19 l(y) net1 gnd gnd sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1
+XM20 l(y) cl(i-1) gnd gnd sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1
+XM21 l(z) net3 vdd vdd sky130_fd_pr__pfet_01v8 L=0.15 W=1 nf=1
+XM22 l(z) net5 vdd vdd sky130_fd_pr__pfet_01v8 L=0.15 W=1 nf=1
+XM23 l(z) net3 net9 gnd sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1
+XM24 net9 net5 gnd gnd sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1
+XM25 l(x') l(x) vdd vdd sky130_fd_pr__pfet_01v8 L=0.15 W=1 nf=1
+XM26 l(x') l(x) gnd gnd sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1
+XM27 l(y') l(y) vdd vdd sky130_fd_pr__pfet_01v8 L=0.15 W=1 nf=1
+XM28 l(y') l(y) gnd gnd sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1
+XM29 l(z') l(z) vdd vdd sky130_fd_pr__pfet_01v8 L=0.15 W=1 nf=1
+XM30 l(z') l(z) gnd gnd sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1
+**.ends
+.end
